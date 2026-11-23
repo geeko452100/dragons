@@ -1,0 +1,17 @@
+{
+  "name": "@fantasy/server",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc -p ."
+  },
+  "dependencies": {
+    "@fantasy/shared": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "vitest": "^2.1.0"
+  }
+}
