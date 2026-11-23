@@ -2,7 +2,7 @@
 
 A turn-based party game. Log in as the Party Master, build a party of three, command them through six encounters, collect loot, spend stat points, and beat the dragon.
 
-> Work in progress. Currently at Step 1 (project setup) of the build order in [TODO.md](TODO.md).
+> Work in progress. Project setup is done; building the shared types and class permissions next.
 
 <!-- TODO: screenshot or GIF here, then the live link -->
 
