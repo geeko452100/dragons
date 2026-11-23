@@ -4,4 +4,4 @@ coverage
 .env
 *.db
 TODO.md
-TIPS.md
+pseudocode.md
