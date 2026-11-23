@@ -4,12 +4,14 @@ export type StatName = 'maxHp' | 'attack' | 'defense' | 'speed';
 
 export type Stats = Record<StatName, number>;
 
+// Item type declaration
 export type Item = {
   id: number;
   name: string;
   type: ItemType;
 };
 
+// Unit type declaration
 export type Unit = {
   id: number;
   name: string;
@@ -20,6 +22,7 @@ export type Unit = {
   equipment: Item[];
 };
 
+// Monster type declaration
 export type Monster = {
   id: number;
   name: string;
@@ -28,11 +31,13 @@ export type Monster = {
   isDragon: boolean;
 };
 
+// Permission type blueprint
 export type Permission =
   | { kind: 'useAbility'; abilityId: number }
   | { kind: 'equip'; itemType: ItemType }
   | { kind: 'raiseStat'; stat: StatName; toValue: number };
 
+// Action type blueprint
 export type Action =
   | { kind: 'attack'; actorId: number; targetId: number }
   | { kind: 'useAbility'; actorId: number; abilityId: number; targetId: number }
