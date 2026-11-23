@@ -3,3 +3,5 @@ dist
 coverage
 .env
 *.db
+TODO.md
+TIPS.md
